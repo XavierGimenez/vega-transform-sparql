@@ -1,6 +1,3 @@
-# vega-transform-sparql
-A Vega transform for SPARQL endpoints
-
 # Vega Transform to query SPARQL endpoints
 
 A Vega Data Transform to fetch data from an [SPARQL endpoint](https://en.wikipedia.org/wiki/SPARQL).
