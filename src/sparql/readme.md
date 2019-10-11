@@ -1,0 +1,4 @@
+Source code related to managing SPARQL results is ported from the module jassa-core of the [Jassa library](http://aksw.org/Projects/Jassa.html), a Javascript Suite for Sparql Access, developed by [The Research Group Agile Knowledge Engineering and Semantic Web](http://aksw.org/About.html).
+
+As mentioned in its [website](http://aksw.org/Projects/Jassa.html):
+> The jassa-core module is a swiss army knife for dealing with SPARQL queries and result sets from JavaScript. It is comprised of a set of layered modules, ranging from a (low-level) RDF API over a service abstraction layer, a SPARQL-JSON mapping layer up to a faceted browsing layer. Jassa lets you focus on application development rather than getting tangled up in SPARQL details. Note, that Jassa-Core can be used in both server- and client-side scenarios.
