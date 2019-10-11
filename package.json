@@ -4,6 +4,7 @@
   "description": "Vega transform for SPARQL endpoints",
   "main": "index.js",
   "scripts": {
+    "build": "rollup --config",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -22,5 +23,12 @@
   "homepage": "https://github.com/XavierGimenez/vega-transform-sparql#readme",
   "peerDependencies": {
     "vega": "^5.7.2"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.6.4",
+    "@babel/preset-env": "^7.6.3",
+    "rollup": "^1.23.1",
+    "rollup-plugin-babel": "^4.3.3",
+    "rollup-plugin-node-resolve": "^5.2.0"
   }
 }
