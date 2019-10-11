@@ -2,7 +2,8 @@
   "name": "vega-transform-sparql",
   "version": "0.0.1",
   "description": "Vega transform for SPARQL endpoints",
-  "main": "index.js",
+  "main": "dist/bundle.js",
+  "module": "src/index.js",
   "scripts": {
     "build": "rollup --config",
     "test": "echo \"Error: no test specified\" && exit 1"
