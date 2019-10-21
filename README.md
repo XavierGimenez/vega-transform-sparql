@@ -2,7 +2,7 @@
 
 A Vega Data Transform to fetch data from an [SPARQL endpoint](https://en.wikipedia.org/wiki/SPARQL).
 
-This package extends Vega's set of data transforms to support fetching data from an SPARQL endpoint and parsing the results, in Vega version 5.0 and higher. 
+This package extends Vega's set of data transforms to support fetching data from an SPARQL endpoint and parsing the results, in Vega version 5.0 and higher. A demo can be found [here](https://github.com/XavierGimenez/vega-transform-sparql-demo).
 
 ## Usage Instructions
 
