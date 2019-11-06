@@ -61,11 +61,16 @@ function parseNodeValue(nodeValue) {
 
 /**
  * Converts a binding object to a collection of {keys,values}
+ * @param {Array} varNames all the projected vars existing in the query
  * @param {Binding} binding (https://www.w3.org/TR/sparql11-query/#docResultDesc)
  * @returns A collection 
  */
-function binding2Obj(binding) {
+function binding2Obj(varNames, binding) {
     var o = {};
+    varNames.forEach( varName => {
+        o[varName] = null;
+    });
+
     for (var key in binding) {
         var nodeValue = binding[key];
         o[key] = parseNodeValue(nodeValue);
@@ -82,5 +87,5 @@ function binding2Obj(binding) {
 export function bindingsToJsMap (json) {
     const varNames = json.head.vars,
           bindings = json.results.bindings;
-    return bindings.map(binding => binding2Obj(binding));
+    return bindings.map(binding => binding2Obj(varNames, binding));
 };
