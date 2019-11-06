@@ -14,6 +14,6 @@ defaultRdfDatatypes[xsd.xstring] = new DatatypeLabelString();
 defaultRdfDatatypes[xsd.date] = new DatatypeLabelDate();
 defaultRdfDatatypes[xsd.dateTime] = new DatatypeLabelDate();
 defaultRdfDatatypes[xsd.decimal] = new DatatypeLabelFloat();
-defaultRdfDatatypes[xsd.boolean] = new DatatypeLabelBoolean();
+defaultRdfDatatypes[xsd.xboolean] = new DatatypeLabelBoolean();
 
 export default defaultRdfDatatypes;
