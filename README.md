@@ -14,7 +14,7 @@ npm install vega-transform-sparql
 To use the transform, just add it to the existing set of Vega data transforms as follows:
 ```js
 import * as vega from 'vega';
-import SPARQL from './SPARQL';
+import SPARQL from 'vega-transform-sparql';
 
 vega.transforms['sparql'] = SPARQL;
 ```
